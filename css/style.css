@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    background-color: #eee;
+}
+/* start left-content */
+.back .left-content .Form{
+    display:block;
+    width: 396px;
+    /* float: left; */
+    margin-left: 15%;
+    margin-top: 10%; 
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #9ea0a0;
+    padding: 5px 10px;
+}
+.back .left-content .Form input{
+    padding: 14px 16px;
+    width: 100%;
+    box-sizing: border-box;
+    direction: rtl;
+    border-radius: 6px;
+    border: 1px solid #dee0e3;
+    margin: 15px 0;
+}
+.back .left-content .login{
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /* display:inline-block; */
+    
+}
+.back .left-content .link1{
+    text-decoration: none;
+    color: #1877f2;
+    /* margin: 130px;  */
+    margin: 20px 0 15px 140px
+}
+hr{
+    width:396px;
+    border: 1px solid #e4e6e9;
+}
+.back .left-content .link2{
+    background-color: #42b72a;
+    color: white;
+    margin: 20px 0 15px 130px;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.create a{
+   text-decoration: none;
+   color:black;
+   font-size: 18px;
+   font-weight: 600;
+}
+.create{
+    margin-left: 20%;
+    margin-top: 20px;   
+}
+/* end-left-content */
+/* srart-right-content */
+.back .right-content{
+    float: right;
+    margin-right: 20%;
+    margin-top:-400px; 
+    width: 500px;  
+    direction: rtl; 
+}
+.back .right-content h2{
+    font-size: 70px;
+    color: #1877f2;
+    font-weight:bolder;
+    margin-bottom: 0;
+    padding-right: 32px;
+}
+.back .right-content p {
+    /* width: 300px; */
+    direction: rtl;
+    font-size: 25px;
+    font-weight: 600;
+    word-spacing: 2px;
+    padding-right: 32px;
+    box-sizing: border-box;   
+}
+/* endright-content */
+.clear{
+    clear: both;  
+}
